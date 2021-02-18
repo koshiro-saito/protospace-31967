@@ -27,7 +27,6 @@ class PrototypesController < ApplicationController
   end
 
   def edit
-    @prototype = Prototype.new
   end
 
   def update
